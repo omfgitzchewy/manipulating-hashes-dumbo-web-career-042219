@@ -15,7 +15,7 @@ def first_challenge
 
   #your code here
   contacts["Freddy Mercury"].delete_if do |k,v|
-    v.each {|ele| ele} == "strawberry"
+    v.each {|ele| ele == "strawberry"}
   end
   #remember to return your newly altered contacts hash!
   contacts
