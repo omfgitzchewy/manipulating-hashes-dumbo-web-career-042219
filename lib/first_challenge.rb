@@ -14,7 +14,7 @@ def first_challenge
   }
 
   #your code here
-  return contacts["Freddy Mercury"].delete_if {|k,v| v == "strawberry"}
+  contacts["Freddy Mercury"].delete_if {|k,v| v == "strawberry"}
 
   #remember to return your newly altered contacts hash!
 
